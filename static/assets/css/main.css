@@ -2518,10 +2518,6 @@ ul.social li a.fa-envelope:before {
 	background-color: #90caf9;
 }
 
-ul.social li a:hover:before {
-	background-color: inherit;
-}
-
 #projects .box.style2 .image.featured {
 	height: 200px;
 	overflow: hidden;
@@ -2532,4 +2528,16 @@ ul.social li a:hover:before {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+ul.social li a.fa-linkedin-in:hover:before {
+	background-color: #2196f3 !important;
+}
+
+ul.social li a.fa-github:hover:before {
+	background-color: #0d47a1 !important;
+}
+
+ul.social li a.fa-envelope:hover:before {
+	background-color: #90caf9 !important;
 }
