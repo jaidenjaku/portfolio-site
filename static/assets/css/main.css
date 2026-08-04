@@ -2443,3 +2443,21 @@ input, select, textarea {
 					}
 
 	}
+
+.badges {
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	justify-content: center;
+}
+
+.badges li {
+	background: #f4f4f4;
+	color: #555;
+	font-size: 0.75em;
+	padding: 0.3em 0.8em;
+	border-radius: 3px;
+}
