@@ -1974,7 +1974,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #2196f3;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2009,7 +2009,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
+			background-color: #0a3270;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
@@ -2460,4 +2460,72 @@ input, select, textarea {
 	font-size: 0.75em;
 	padding: 0.3em 0.8em;
 	border-radius: 3px;
+}
+
+/* Custom - Color Hunt Palette */
+
+a:hover {
+	color: #0d47a1 !important;
+}
+
+.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	background-color: #2196f3;
+}
+
+.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+	background-color: #0d47a1;
+}
+
+#nav {
+	background-color: #0d47a1;
+}
+
+#nav a:hover,
+#nav a.active {
+	background: #2196f3;
+}
+
+#nav a.active:before {
+	border-top-color: #0d47a1;
+}
+
+.wrapper.style2 {
+	background-color: #e3f2fd;
+}
+
+ul.social li a:before {
+	color: #fff !important;
+	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.4), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+ul.social li a.fa-linkedin-in:before {
+	background-color: #2196f3;
+}
+
+ul.social li a.fa-github:before {
+	background-color: #0d47a1;
+}
+
+ul.social li a.fa-envelope:before {
+	background-color: #90caf9;
+}
+
+#projects .box.style2 .image.featured {
+	height: 200px;
+	overflow: hidden;
+	display: block;
+}
+
+#projects .box.style2 .image.featured img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
