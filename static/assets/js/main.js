@@ -31,4 +31,22 @@
 			offset: function() { return $nav.height(); }
 		});
 
+	// Lightbox.
+		var $lightbox = $('#lightbox'),
+			$lightboxImg = $lightbox.find('img');
+
+		$('#projects .image.featured').on('click', function(e) {
+			e.preventDefault();
+			$lightboxImg.attr('src', $(this).attr('href'));
+			$lightbox.addClass('active');
+		});
+
+		$lightbox.on('click', function() {
+			$lightbox.removeClass('active');
+		});
+
+		$(document).on('keydown', function(e) {
+			if (e.key === 'Escape') $lightbox.removeClass('active');
+		});
+
 })(jQuery);

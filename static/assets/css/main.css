@@ -2529,3 +2529,38 @@ ul.social li a.fa-envelope:before {
 	height: 100%;
 	object-fit: cover;
 }
+
+#lightbox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.85);
+	z-index: 10000;
+	align-items: center;
+	justify-content: center;
+	cursor: zoom-out;
+}
+
+#lightbox.active {
+	display: flex;
+}
+
+#lightbox img {
+	max-width: 90%;
+	max-height: 90%;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+	cursor: default;
+}
+
+#lightbox .lightbox-close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	color: #fff;
+	font-size: 2.5em;
+	line-height: 1;
+	cursor: pointer;
+}
